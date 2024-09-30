@@ -2,6 +2,7 @@
   "name": "@humansignal/source",
   "version": "0.0.0",
   "license": "MIT",
+  "browserslist": "> 0.25%, last 2 versions, Firefox ESR, not dead, Firefox >= 60",
   "scripts": {
     "ui:serve": "FRONTEND_HOSTNAME=http://localhost:3000 nx storybook storybook",
     "ui:test:component": "nx run storybook:test-component",
